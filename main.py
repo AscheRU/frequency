@@ -1,6 +1,7 @@
 import numpy as np
 from scipy.io.wavfile import write, read
 
+'''Функция дискретного преобразования'''
 def DFT(x):
 
     x = np.asarray(x, dtype=float)         # Преобразование в массив
@@ -33,7 +34,7 @@ def DFT(x):
     return dataF
 
 
-
+'''Функция обратного дискретного преобразования'''
 def DFTr(y):
 
     N = y.shape[0]
