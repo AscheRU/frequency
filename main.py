@@ -64,3 +64,4 @@ b = DFT(data)
 new_sig = DFTr(b)
 norm_new_sig = np.int16(new_sig * (32767 / new_sig.max()))
 write("clean.wav", sample_rate, norm_new_sig)
+авыфафыва
