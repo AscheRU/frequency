@@ -68,3 +68,4 @@ write("clean.wav", sample_rate, norm_new_sig)
 
 
 Изменения1
+Изменения2
